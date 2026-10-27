@@ -267,6 +267,8 @@ dialog .dlg-foot { display: flex; justify-content: flex-end; gap: .5rem; padding
   .topbar, .steps { padding-left: 1rem; padding-right: 1rem; }
   main { padding: 1rem; }
   .sub-row { grid-template-columns: 1fr; gap: .3rem; }
+  .save-state { display: none; }
+  .topbar-actions .btn { padding: .4rem .55rem; }
 }
 
 /* ---------- print: only the timetable sheets, always light ---------- */

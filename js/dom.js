@@ -31,13 +31,14 @@ const dlg = () => document.getElementById('dlg');
 /** Open the shared modal dialog. `actions` are buttons for the footer. */
 export function openDialog({ title, body, actions = [], wide = false, onClose = null }) {
   const d = dlg();
-  d.replaceChildren(
+  const parts = [
     el('div', { class: 'dlg-head' },
       el('h2', { id: 'dlg-title' }, title),
       el('button', { type: 'button', class: 'btn ghost icon', 'aria-label': 'Close', onclick: () => d.close() }, '✕')),
     el('div', { class: 'dlg-body' }, body),
-    actions.length ? el('div', { class: 'dlg-foot' }, actions) : null,
-  );
+  ];
+  if (actions.length) parts.push(el('div', { class: 'dlg-foot' }, actions));
+  d.replaceChildren(...parts);
   d.style.width = wide ? 'min(980px, calc(100vw - 2rem))' : '';
   d.onclose = onClose;
   d.returnValue = '';
