@@ -8,7 +8,9 @@ every class, teacher and room in a few seconds. Every result is re-checked by a 
 
 **Live app:** https://hussnn18.github.io/h1/ (no sign-up; everything runs in your browser)
 
-**Presentation:** `docs/` holds the feature screenshots used in the deck.
+**Presentation:** [docs/ClashFree-Presentation.pdf](docs/ClashFree-Presentation.pdf) (feature screenshots in `docs/screenshots/`)
+
+**Testing data:** [samples/](samples/) with a testing guide
 
 ## Try it in one minute
 
