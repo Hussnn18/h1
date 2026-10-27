@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "college": {
+    "name": "Broken Data Example (shows error messages)",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "periods": [
+      {
+        "start": "09:00",
+        "end": "09:50"
+      },
+      {
+        "start": "09:50",
+        "end": "10:40"
+      },
+      {
+        "start": "10:40",
+        "end": "11:30"
+      },
+      {
+        "start": "11:30",
+        "end": "12:20"
+      },
+      {
+        "start": "13:00",
+        "end": "13:50"
+      },
+      {
+        "start": "13:50",
+        "end": "14:40"
+      },
+      {
+        "start": "14:40",
+        "end": "15:30"
+      },
+      {
+        "start": "15:30",
+        "end": "16:20"
+      }
+    ],
+    "breaks": [
+      3
+    ]
+  },
+  "rooms": [
+    {
+      "id": "r-room-1",
+      "name": "Room 1",
+      "type": "Classroom",
+      "capacity": 60,
+      "dept": ""
+    },
+    {
+      "id": "r-room-2",
+      "name": "Room 2",
+      "type": "Classroom",
+      "capacity": 60,
+      "dept": ""
+    },
+    {
+      "id": "r-computer-lab",
+      "name": "Computer Lab",
+      "type": "Computer Lab",
+      "capacity": 40,
+      "dept": ""
+    }
+  ],
+  "teachers": [
+    {
+      "id": "t-ms-anjali-gupta",
+      "name": "Ms. Anjali Gupta",
+      "dept": "Commerce",
+      "maxPerDay": 4,
+      "unavailable": []
+    },
+    {
+      "id": "t-mr-ravinder-singh",
+      "name": "Mr. Ravinder Singh",
+      "dept": "Commerce",
+      "maxPerDay": 4,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-meenakshi-jain",
+      "name": "Dr. Meenakshi Jain",
+      "dept": "Commerce",
+      "maxPerDay": 4,
+      "unavailable": [
+        "0-0",
+        "0-1",
+        "0-2",
+        "0-3"
+      ]
+    },
+    {
+      "id": "t-mr-karan-arora",
+      "name": "Mr. Karan Arora",
+      "dept": "Computer Applications",
+      "maxPerDay": 3,
+      "unavailable": []
+    }
+  ],
+  "sections": [
+    {
+      "id": "s-b-com-i",
+      "name": "B.Com I",
+      "dept": "Commerce",
+      "size": 55
+    },
+    {
+      "id": "s-bca-i",
+      "name": "BCA I",
+      "dept": "Computer Applications",
+      "size": 40
+    },
+    {
+      "id": "s-b-com-ii",
+      "name": "B.Com II",
+      "dept": "Commerce",
+      "size": 120
+    }
+  ],
+  "courses": [
+    {
+      "id": "c-b-com-i-bc-101",
+      "sectionId": "s-b-com-i",
+      "batch": "",
+      "subject": "Financial Accounting",
+      "code": "BC-101",
+      "teacherId": "t-ms-anjali-gupta",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-b-com-i-bc-102",
+      "sectionId": "s-b-com-i",
+      "batch": "",
+      "subject": "Business Economics",
+      "code": "BC-102",
+      "teacherId": "t-mr-ravinder-singh",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-b-com-i-bc-103",
+      "sectionId": "s-b-com-i",
+      "batch": "",
+      "subject": "Business Law",
+      "code": "BC-103",
+      "teacherId": "t-dr-meenakshi-jain",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-b-com-i-bc-104-g1",
+      "sectionId": "s-b-com-i",
+      "batch": "G1",
+      "subject": "Computer Basics",
+      "code": "BC-104",
+      "teacherId": "t-mr-karan-arora",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-b-com-i-bc-104-g2",
+      "sectionId": "s-b-com-i",
+      "batch": "G2",
+      "subject": "Computer Basics",
+      "code": "BC-104",
+      "teacherId": "t-mr-karan-arora",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-bca-i-ca-101",
+      "sectionId": "s-bca-i",
+      "batch": "",
+      "subject": "Programming in C",
+      "code": "CA-101",
+      "teacherId": "t-mr-karan-arora",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-bca-i-ca-102",
+      "sectionId": "s-bca-i",
+      "batch": "",
+      "subject": "Mathematics",
+      "code": "CA-102",
+      "teacherId": "t-mr-ravinder-singh",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-bca-i-ca-103",
+      "sectionId": "s-bca-i",
+      "batch": "",
+      "subject": "Accounting for BCA",
+      "code": "CA-103",
+      "teacherId": "t-ms-anjali-gupta",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-bca-i-ca-111",
+      "sectionId": "s-bca-i",
+      "batch": "",
+      "subject": "C Programming Lab",
+      "code": "CA-111",
+      "teacherId": "t-mr-karan-arora",
+      "sessions": 2,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-bca-extra",
+      "sectionId": "s-bca-i",
+      "batch": "",
+      "subject": "Web Design",
+      "code": "CA-104",
+      "teacherId": "t-mr-karan-arora",
+      "sessions": 4,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-bcom1-visit",
+      "sectionId": "s-b-com-i",
+      "batch": "",
+      "subject": "Industry Visit",
+      "code": "BC-190",
+      "teacherId": "t-mr-ravinder-singh",
+      "sessions": 1,
+      "length": 5,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-bcom2-acc",
+      "sectionId": "s-b-com-ii",
+      "batch": "",
+      "subject": "Corporate Accounting",
+      "code": "BC-201",
+      "teacherId": "t-ms-anjali-gupta",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    }
+  ],
+  "timetable": null
+}

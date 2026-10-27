@@ -1,0 +1,16 @@
+Name,Type,Capacity,Department
+CR-101,Classroom,70,CSE
+CR-102,Classroom,70,CSE
+CR-103,Classroom,70,CSE
+CR-201,Classroom,70,ECE
+CR-202,Classroom,70,ECE
+CR-301,Classroom,70,ME
+LT-1,Classroom,130,
+Seminar Hall,Seminar Hall,200,
+Lab C1,Computer Lab,36,CSE
+Lab C2,Computer Lab,36,CSE
+Computer Centre,Computer Lab,40,
+Electronics Lab,Electronics Lab,36,ECE
+Comms Lab,Electronics Lab,36,ECE
+Workshop,Workshop,36,ME
+Physics Lab,Physics Lab,36,

@@ -1,0 +1,1044 @@
+{
+  "version": 1,
+  "college": {
+    "name": "Demo Engineering College, Ludhiana",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "periods": [
+      {
+        "start": "09:00",
+        "end": "09:50"
+      },
+      {
+        "start": "09:50",
+        "end": "10:40"
+      },
+      {
+        "start": "10:40",
+        "end": "11:30"
+      },
+      {
+        "start": "11:30",
+        "end": "12:20"
+      },
+      {
+        "start": "13:00",
+        "end": "13:50"
+      },
+      {
+        "start": "13:50",
+        "end": "14:40"
+      },
+      {
+        "start": "14:40",
+        "end": "15:30"
+      },
+      {
+        "start": "15:30",
+        "end": "16:20"
+      }
+    ],
+    "breaks": [
+      3
+    ]
+  },
+  "rooms": [
+    {
+      "id": "r-cr-101",
+      "name": "CR-101",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cr-102",
+      "name": "CR-102",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cr-103",
+      "name": "CR-103",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cr-201",
+      "name": "CR-201",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-cr-202",
+      "name": "CR-202",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-cr-301",
+      "name": "CR-301",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ME"
+    },
+    {
+      "id": "r-lt-1",
+      "name": "LT-1",
+      "type": "Classroom",
+      "capacity": 130,
+      "dept": ""
+    },
+    {
+      "id": "r-seminar-hall",
+      "name": "Seminar Hall",
+      "type": "Seminar Hall",
+      "capacity": 200,
+      "dept": ""
+    },
+    {
+      "id": "r-lab-c1",
+      "name": "Lab C1",
+      "type": "Computer Lab",
+      "capacity": 36,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-lab-c2",
+      "name": "Lab C2",
+      "type": "Computer Lab",
+      "capacity": 36,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-computer-centre",
+      "name": "Computer Centre",
+      "type": "Computer Lab",
+      "capacity": 40,
+      "dept": ""
+    },
+    {
+      "id": "r-electronics-lab",
+      "name": "Electronics Lab",
+      "type": "Electronics Lab",
+      "capacity": 36,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-comms-lab",
+      "name": "Comms Lab",
+      "type": "Electronics Lab",
+      "capacity": 36,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-workshop",
+      "name": "Workshop",
+      "type": "Workshop",
+      "capacity": 36,
+      "dept": "ME"
+    },
+    {
+      "id": "r-physics-lab",
+      "name": "Physics Lab",
+      "type": "Physics Lab",
+      "capacity": 36,
+      "dept": ""
+    }
+  ],
+  "teachers": [
+    {
+      "id": "t-dr-harpreet-kaur",
+      "name": "Dr. Harpreet Kaur",
+      "dept": "CSE",
+      "maxPerDay": 4,
+      "unavailable": [
+        "4-4",
+        "4-5",
+        "4-6",
+        "4-7"
+      ]
+    },
+    {
+      "id": "t-prof-amandeep-singh",
+      "name": "Prof. Amandeep Singh",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-neha-sharma",
+      "name": "Dr. Neha Sharma",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-gurpreet-singh",
+      "name": "Prof. Gurpreet Singh",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-ms-simran-kaur",
+      "name": "Ms. Simran Kaur",
+      "dept": "CSE",
+      "maxPerDay": 4,
+      "unavailable": [
+        "3-0",
+        "3-1",
+        "3-2",
+        "3-3",
+        "3-4",
+        "3-5",
+        "3-6",
+        "3-7",
+        "4-0",
+        "4-1",
+        "4-2",
+        "4-3",
+        "4-4",
+        "4-5",
+        "4-6",
+        "4-7"
+      ]
+    },
+    {
+      "id": "t-mr-rohit-verma",
+      "name": "Mr. Rohit Verma",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-jaspreet-gill",
+      "name": "Dr. Jaspreet Gill",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-manpreet-sandhu",
+      "name": "Dr. Manpreet Sandhu",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-kulwinder-singh",
+      "name": "Prof. Kulwinder Singh",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-ms-ritu-bansal",
+      "name": "Ms. Ritu Bansal",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-mr-arjun-mehta",
+      "name": "Mr. Arjun Mehta",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-baljit-singh",
+      "name": "Dr. Baljit Singh",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": [
+        "2-0",
+        "2-1",
+        "2-2",
+        "2-3",
+        "2-4",
+        "2-5",
+        "2-6",
+        "2-7"
+      ]
+    },
+    {
+      "id": "t-prof-rajesh-kumar",
+      "name": "Prof. Rajesh Kumar",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-mr-inderjit-dhillon",
+      "name": "Mr. Inderjit Dhillon",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-sunita-arora",
+      "name": "Dr. Sunita Arora",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-vikram-malhotra",
+      "name": "Prof. Vikram Malhotra",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": [
+        "0-0",
+        "0-1"
+      ]
+    },
+    {
+      "id": "t-dr-pooja-khanna",
+      "name": "Dr. Pooja Khanna",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-ms-kiranjot-kaur",
+      "name": "Ms. Kiranjot Kaur",
+      "dept": "Applied Sciences",
+      "maxPerDay": 4,
+      "unavailable": []
+    }
+  ],
+  "sections": [
+    {
+      "id": "s-cse-3a",
+      "name": "CSE-3A",
+      "dept": "CSE",
+      "size": 64
+    },
+    {
+      "id": "s-cse-3b",
+      "name": "CSE-3B",
+      "dept": "CSE",
+      "size": 62
+    },
+    {
+      "id": "s-cse-5a",
+      "name": "CSE-5A",
+      "dept": "CSE",
+      "size": 60
+    },
+    {
+      "id": "s-ece-3a",
+      "name": "ECE-3A",
+      "dept": "ECE",
+      "size": 60
+    },
+    {
+      "id": "s-ece-5a",
+      "name": "ECE-5A",
+      "dept": "ECE",
+      "size": 58
+    },
+    {
+      "id": "s-me-3a",
+      "name": "ME-3A",
+      "dept": "ME",
+      "size": 60
+    }
+  ],
+  "courses": [
+    {
+      "id": "c-cse-3a-math-301",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "Engineering Mathematics III",
+      "code": "MATH-301",
+      "teacherId": "t-prof-vikram-malhotra",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cs-301",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "Data Structures",
+      "code": "CS-301",
+      "teacherId": "t-dr-harpreet-kaur",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cs-303",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "Object Oriented Programming",
+      "code": "CS-303",
+      "teacherId": "t-prof-amandeep-singh",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cs-305",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "Discrete Mathematics",
+      "code": "CS-305",
+      "teacherId": "t-dr-neha-sharma",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-ec-311",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "Digital Electronics",
+      "code": "EC-311",
+      "teacherId": "t-ms-ritu-bansal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-hu-301",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "Communication Skills",
+      "code": "HU-301",
+      "teacherId": "t-ms-kiranjot-kaur",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cs-311-g1",
+      "sectionId": "s-cse-3a",
+      "batch": "G1",
+      "subject": "Data Structures Lab",
+      "code": "CS-311",
+      "teacherId": "t-mr-rohit-verma",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cs-311-g2",
+      "sectionId": "s-cse-3a",
+      "batch": "G2",
+      "subject": "Data Structures Lab",
+      "code": "CS-311",
+      "teacherId": "t-prof-gurpreet-singh",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cs-313-g1",
+      "sectionId": "s-cse-3a",
+      "batch": "G1",
+      "subject": "OOP Lab",
+      "code": "CS-313",
+      "teacherId": "t-prof-amandeep-singh",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cs-313-g2",
+      "sectionId": "s-cse-3a",
+      "batch": "G2",
+      "subject": "OOP Lab",
+      "code": "CS-313",
+      "teacherId": "t-ms-simran-kaur",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-math-301",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "Engineering Mathematics III",
+      "code": "MATH-301",
+      "teacherId": "t-dr-sunita-arora",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cs-301",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "Data Structures",
+      "code": "CS-301",
+      "teacherId": "t-prof-gurpreet-singh",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cs-303",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "Object Oriented Programming",
+      "code": "CS-303",
+      "teacherId": "t-dr-jaspreet-gill",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cs-305",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "Discrete Mathematics",
+      "code": "CS-305",
+      "teacherId": "t-dr-neha-sharma",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-ec-311",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "Digital Electronics",
+      "code": "EC-311",
+      "teacherId": "t-ms-ritu-bansal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-hu-301",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "Communication Skills",
+      "code": "HU-301",
+      "teacherId": "t-ms-kiranjot-kaur",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cs-311-g1",
+      "sectionId": "s-cse-3b",
+      "batch": "G1",
+      "subject": "Data Structures Lab",
+      "code": "CS-311",
+      "teacherId": "t-mr-rohit-verma",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cs-311-g2",
+      "sectionId": "s-cse-3b",
+      "batch": "G2",
+      "subject": "Data Structures Lab",
+      "code": "CS-311",
+      "teacherId": "t-dr-harpreet-kaur",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cs-313-g1",
+      "sectionId": "s-cse-3b",
+      "batch": "G1",
+      "subject": "OOP Lab",
+      "code": "CS-313",
+      "teacherId": "t-dr-jaspreet-gill",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cs-313-g2",
+      "sectionId": "s-cse-3b",
+      "batch": "G2",
+      "subject": "OOP Lab",
+      "code": "CS-313",
+      "teacherId": "t-ms-simran-kaur",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-501",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "Operating Systems",
+      "code": "CS-501",
+      "teacherId": "t-dr-jaspreet-gill",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-503",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "Database Management Systems",
+      "code": "CS-503",
+      "teacherId": "t-dr-neha-sharma",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-505",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "Computer Networks",
+      "code": "CS-505",
+      "teacherId": "t-prof-amandeep-singh",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-507",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "Software Engineering",
+      "code": "CS-507",
+      "teacherId": "t-prof-gurpreet-singh",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-509",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "Machine Learning",
+      "code": "CS-509",
+      "teacherId": "t-dr-harpreet-kaur",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-591",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "Seminar",
+      "code": "CS-591",
+      "teacherId": "t-mr-rohit-verma",
+      "sessions": 1,
+      "length": 1,
+      "roomType": "Seminar Hall",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-513-g1",
+      "sectionId": "s-cse-5a",
+      "batch": "G1",
+      "subject": "DBMS Lab",
+      "code": "CS-513",
+      "teacherId": "t-mr-rohit-verma",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-513-g2",
+      "sectionId": "s-cse-5a",
+      "batch": "G2",
+      "subject": "DBMS Lab",
+      "code": "CS-513",
+      "teacherId": "t-ms-simran-kaur",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-515-g1",
+      "sectionId": "s-cse-5a",
+      "batch": "G1",
+      "subject": "Networks Lab",
+      "code": "CS-515",
+      "teacherId": "t-prof-amandeep-singh",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cs-515-g2",
+      "sectionId": "s-cse-5a",
+      "batch": "G2",
+      "subject": "Networks Lab",
+      "code": "CS-515",
+      "teacherId": "t-dr-jaspreet-gill",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-math-301",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "Engineering Mathematics III",
+      "code": "MATH-301",
+      "teacherId": "t-dr-sunita-arora",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ec-301",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "Network Analysis",
+      "code": "EC-301",
+      "teacherId": "t-dr-manpreet-sandhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ec-303",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "Electronic Devices",
+      "code": "EC-303",
+      "teacherId": "t-prof-kulwinder-singh",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ec-305",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "Signals and Systems",
+      "code": "EC-305",
+      "teacherId": "t-mr-arjun-mehta",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ec-311",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "Digital Electronics",
+      "code": "EC-311",
+      "teacherId": "t-ms-ritu-bansal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-hu-301",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "Communication Skills",
+      "code": "HU-301",
+      "teacherId": "t-ms-kiranjot-kaur",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ec-313-g1",
+      "sectionId": "s-ece-3a",
+      "batch": "G1",
+      "subject": "Devices Lab",
+      "code": "EC-313",
+      "teacherId": "t-prof-kulwinder-singh",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ec-313-g2",
+      "sectionId": "s-ece-3a",
+      "batch": "G2",
+      "subject": "Devices Lab",
+      "code": "EC-313",
+      "teacherId": "t-mr-arjun-mehta",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-501",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "Communication Systems",
+      "code": "EC-501",
+      "teacherId": "t-dr-manpreet-sandhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-503",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "Microprocessors",
+      "code": "EC-503",
+      "teacherId": "t-mr-arjun-mehta",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-505",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "VLSI Design",
+      "code": "EC-505",
+      "teacherId": "t-prof-kulwinder-singh",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-507",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "Control Systems",
+      "code": "EC-507",
+      "teacherId": "t-ms-ritu-bansal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-591",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "Seminar",
+      "code": "EC-591",
+      "teacherId": "t-dr-manpreet-sandhu",
+      "sessions": 1,
+      "length": 1,
+      "roomType": "Seminar Hall",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-511-g1",
+      "sectionId": "s-ece-5a",
+      "batch": "G1",
+      "subject": "Communication Lab",
+      "code": "EC-511",
+      "teacherId": "t-dr-manpreet-sandhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-511-g2",
+      "sectionId": "s-ece-5a",
+      "batch": "G2",
+      "subject": "Communication Lab",
+      "code": "EC-511",
+      "teacherId": "t-ms-ritu-bansal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-513-g1",
+      "sectionId": "s-ece-5a",
+      "batch": "G1",
+      "subject": "Microprocessor Lab",
+      "code": "EC-513",
+      "teacherId": "t-mr-arjun-mehta",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ec-513-g2",
+      "sectionId": "s-ece-5a",
+      "batch": "G2",
+      "subject": "Microprocessor Lab",
+      "code": "EC-513",
+      "teacherId": "t-prof-kulwinder-singh",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-math-301",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "Engineering Mathematics III",
+      "code": "MATH-301",
+      "teacherId": "t-prof-vikram-malhotra",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-301",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "Thermodynamics",
+      "code": "ME-301",
+      "teacherId": "t-dr-baljit-singh",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-303",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "Strength of Materials",
+      "code": "ME-303",
+      "teacherId": "t-prof-rajesh-kumar",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-305",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "Manufacturing Processes",
+      "code": "ME-305",
+      "teacherId": "t-mr-inderjit-dhillon",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-ph-301",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "Engineering Physics",
+      "code": "PH-301",
+      "teacherId": "t-dr-pooja-khanna",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-hu-301",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "Communication Skills",
+      "code": "HU-301",
+      "teacherId": "t-ms-kiranjot-kaur",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-311-g1",
+      "sectionId": "s-me-3a",
+      "batch": "G1",
+      "subject": "Workshop Practice",
+      "code": "ME-311",
+      "teacherId": "t-mr-inderjit-dhillon",
+      "sessions": 1,
+      "length": 3,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-311-g2",
+      "sectionId": "s-me-3a",
+      "batch": "G2",
+      "subject": "Workshop Practice",
+      "code": "ME-311",
+      "teacherId": "t-prof-rajesh-kumar",
+      "sessions": 1,
+      "length": 3,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-ph-311-g1",
+      "sectionId": "s-me-3a",
+      "batch": "G1",
+      "subject": "Physics Lab",
+      "code": "PH-311",
+      "teacherId": "t-dr-pooja-khanna",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Physics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-ph-311-g2",
+      "sectionId": "s-me-3a",
+      "batch": "G2",
+      "subject": "Physics Lab",
+      "code": "PH-311",
+      "teacherId": "t-dr-baljit-singh",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Physics Lab",
+      "fixedRoomId": ""
+    }
+  ],
+  "timetable": null
+}

@@ -1,0 +1,58 @@
+Section,Batch,Code,Subject,Teacher,Sessions per week,Periods per session,Room type
+CSE-3A,,MATH-301,Engineering Mathematics III,Prof. Vikram Malhotra,4,1,Classroom
+CSE-3A,,CS-301,Data Structures,Dr. Harpreet Kaur,4,1,Classroom
+CSE-3A,,CS-303,Object Oriented Programming,Prof. Amandeep Singh,3,1,Classroom
+CSE-3A,,CS-305,Discrete Mathematics,Dr. Neha Sharma,3,1,Classroom
+CSE-3A,,EC-311,Digital Electronics,Ms. Ritu Bansal,3,1,Classroom
+CSE-3A,,HU-301,Communication Skills,Ms. Kiranjot Kaur,2,1,Classroom
+CSE-3A,G1,CS-311,Data Structures Lab,Mr. Rohit Verma,1,2,Computer Lab
+CSE-3A,G2,CS-311,Data Structures Lab,Prof. Gurpreet Singh,1,2,Computer Lab
+CSE-3A,G1,CS-313,OOP Lab,Prof. Amandeep Singh,1,2,Computer Lab
+CSE-3A,G2,CS-313,OOP Lab,Ms. Simran Kaur,1,2,Computer Lab
+CSE-3B,,MATH-301,Engineering Mathematics III,Dr. Sunita Arora,4,1,Classroom
+CSE-3B,,CS-301,Data Structures,Prof. Gurpreet Singh,4,1,Classroom
+CSE-3B,,CS-303,Object Oriented Programming,Dr. Jaspreet Gill,3,1,Classroom
+CSE-3B,,CS-305,Discrete Mathematics,Dr. Neha Sharma,3,1,Classroom
+CSE-3B,,EC-311,Digital Electronics,Ms. Ritu Bansal,3,1,Classroom
+CSE-3B,,HU-301,Communication Skills,Ms. Kiranjot Kaur,2,1,Classroom
+CSE-3B,G1,CS-311,Data Structures Lab,Mr. Rohit Verma,1,2,Computer Lab
+CSE-3B,G2,CS-311,Data Structures Lab,Dr. Harpreet Kaur,1,2,Computer Lab
+CSE-3B,G1,CS-313,OOP Lab,Dr. Jaspreet Gill,1,2,Computer Lab
+CSE-3B,G2,CS-313,OOP Lab,Ms. Simran Kaur,1,2,Computer Lab
+CSE-5A,,CS-501,Operating Systems,Dr. Jaspreet Gill,4,1,Classroom
+CSE-5A,,CS-503,Database Management Systems,Dr. Neha Sharma,4,1,Classroom
+CSE-5A,,CS-505,Computer Networks,Prof. Amandeep Singh,3,1,Classroom
+CSE-5A,,CS-507,Software Engineering,Prof. Gurpreet Singh,3,1,Classroom
+CSE-5A,,CS-509,Machine Learning,Dr. Harpreet Kaur,3,1,Classroom
+CSE-5A,,CS-591,Seminar,Mr. Rohit Verma,1,1,Seminar Hall
+CSE-5A,G1,CS-513,DBMS Lab,Mr. Rohit Verma,1,2,Computer Lab
+CSE-5A,G2,CS-513,DBMS Lab,Ms. Simran Kaur,1,2,Computer Lab
+CSE-5A,G1,CS-515,Networks Lab,Prof. Amandeep Singh,1,2,Computer Lab
+CSE-5A,G2,CS-515,Networks Lab,Dr. Jaspreet Gill,1,2,Computer Lab
+ECE-3A,,MATH-301,Engineering Mathematics III,Dr. Sunita Arora,4,1,Classroom
+ECE-3A,,EC-301,Network Analysis,Dr. Manpreet Sandhu,4,1,Classroom
+ECE-3A,,EC-303,Electronic Devices,Prof. Kulwinder Singh,4,1,Classroom
+ECE-3A,,EC-305,Signals and Systems,Mr. Arjun Mehta,3,1,Classroom
+ECE-3A,,EC-311,Digital Electronics,Ms. Ritu Bansal,3,1,Classroom
+ECE-3A,,HU-301,Communication Skills,Ms. Kiranjot Kaur,2,1,Classroom
+ECE-3A,G1,EC-313,Devices Lab,Prof. Kulwinder Singh,1,2,Electronics Lab
+ECE-3A,G2,EC-313,Devices Lab,Mr. Arjun Mehta,1,2,Electronics Lab
+ECE-5A,,EC-501,Communication Systems,Dr. Manpreet Sandhu,4,1,Classroom
+ECE-5A,,EC-503,Microprocessors,Mr. Arjun Mehta,4,1,Classroom
+ECE-5A,,EC-505,VLSI Design,Prof. Kulwinder Singh,3,1,Classroom
+ECE-5A,,EC-507,Control Systems,Ms. Ritu Bansal,3,1,Classroom
+ECE-5A,,EC-591,Seminar,Dr. Manpreet Sandhu,1,1,Seminar Hall
+ECE-5A,G1,EC-511,Communication Lab,Dr. Manpreet Sandhu,1,2,Electronics Lab
+ECE-5A,G2,EC-511,Communication Lab,Ms. Ritu Bansal,1,2,Electronics Lab
+ECE-5A,G1,EC-513,Microprocessor Lab,Mr. Arjun Mehta,1,2,Electronics Lab
+ECE-5A,G2,EC-513,Microprocessor Lab,Prof. Kulwinder Singh,1,2,Electronics Lab
+ME-3A,,MATH-301,Engineering Mathematics III,Prof. Vikram Malhotra,4,1,Classroom
+ME-3A,,ME-301,Thermodynamics,Dr. Baljit Singh,4,1,Classroom
+ME-3A,,ME-303,Strength of Materials,Prof. Rajesh Kumar,4,1,Classroom
+ME-3A,,ME-305,Manufacturing Processes,Mr. Inderjit Dhillon,3,1,Classroom
+ME-3A,,PH-301,Engineering Physics,Dr. Pooja Khanna,3,1,Classroom
+ME-3A,,HU-301,Communication Skills,Ms. Kiranjot Kaur,2,1,Classroom
+ME-3A,G1,ME-311,Workshop Practice,Mr. Inderjit Dhillon,1,3,Workshop
+ME-3A,G2,ME-311,Workshop Practice,Prof. Rajesh Kumar,1,3,Workshop
+ME-3A,G1,PH-311,Physics Lab,Dr. Pooja Khanna,1,2,Physics Lab
+ME-3A,G2,PH-311,Physics Lab,Dr. Baljit Singh,1,2,Physics Lab

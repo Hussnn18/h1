@@ -1,0 +1,3153 @@
+{
+  "version": 1,
+  "college": {
+    "name": "Large Institute of Technology (stress test)",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "periods": [
+      {
+        "start": "09:00",
+        "end": "09:50"
+      },
+      {
+        "start": "09:50",
+        "end": "10:40"
+      },
+      {
+        "start": "10:40",
+        "end": "11:30"
+      },
+      {
+        "start": "11:30",
+        "end": "12:20"
+      },
+      {
+        "start": "13:00",
+        "end": "13:50"
+      },
+      {
+        "start": "13:50",
+        "end": "14:40"
+      },
+      {
+        "start": "14:40",
+        "end": "15:30"
+      },
+      {
+        "start": "15:30",
+        "end": "16:20"
+      }
+    ],
+    "breaks": [
+      3
+    ]
+  },
+  "rooms": [
+    {
+      "id": "r-auditorium",
+      "name": "Auditorium",
+      "type": "Seminar Hall",
+      "capacity": 300,
+      "dept": ""
+    },
+    {
+      "id": "r-lt-a",
+      "name": "LT-A",
+      "type": "Classroom",
+      "capacity": 130,
+      "dept": ""
+    },
+    {
+      "id": "r-lt-b",
+      "name": "LT-B",
+      "type": "Classroom",
+      "capacity": 130,
+      "dept": ""
+    },
+    {
+      "id": "r-cse-101",
+      "name": "CSE-101",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cse-102",
+      "name": "CSE-102",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cse-103",
+      "name": "CSE-103",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cse-104",
+      "name": "CSE-104",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cse-105",
+      "name": "CSE-105",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cse-106",
+      "name": "CSE-106",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cse-lab-1",
+      "name": "CSE Lab 1",
+      "type": "Computer Lab",
+      "capacity": 36,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cse-lab-2",
+      "name": "CSE Lab 2",
+      "type": "Computer Lab",
+      "capacity": 36,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-cse-lab-3",
+      "name": "CSE Lab 3",
+      "type": "Computer Lab",
+      "capacity": 36,
+      "dept": "CSE"
+    },
+    {
+      "id": "r-it-101",
+      "name": "IT-101",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "IT"
+    },
+    {
+      "id": "r-it-102",
+      "name": "IT-102",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "IT"
+    },
+    {
+      "id": "r-it-103",
+      "name": "IT-103",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "IT"
+    },
+    {
+      "id": "r-it-104",
+      "name": "IT-104",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "IT"
+    },
+    {
+      "id": "r-it-lab-1",
+      "name": "IT Lab 1",
+      "type": "Computer Lab",
+      "capacity": 36,
+      "dept": "IT"
+    },
+    {
+      "id": "r-it-lab-2",
+      "name": "IT Lab 2",
+      "type": "Computer Lab",
+      "capacity": 36,
+      "dept": "IT"
+    },
+    {
+      "id": "r-ece-101",
+      "name": "ECE-101",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-ece-102",
+      "name": "ECE-102",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-ece-103",
+      "name": "ECE-103",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-ece-104",
+      "name": "ECE-104",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-ece-lab-1",
+      "name": "ECE Lab 1",
+      "type": "Electronics Lab",
+      "capacity": 36,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-ece-lab-2",
+      "name": "ECE Lab 2",
+      "type": "Electronics Lab",
+      "capacity": 36,
+      "dept": "ECE"
+    },
+    {
+      "id": "r-ee-101",
+      "name": "EE-101",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "EE"
+    },
+    {
+      "id": "r-ee-102",
+      "name": "EE-102",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "EE"
+    },
+    {
+      "id": "r-ee-103",
+      "name": "EE-103",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "EE"
+    },
+    {
+      "id": "r-ee-104",
+      "name": "EE-104",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "EE"
+    },
+    {
+      "id": "r-ee-lab-1",
+      "name": "EE Lab 1",
+      "type": "Electrical Lab",
+      "capacity": 36,
+      "dept": "EE"
+    },
+    {
+      "id": "r-ee-lab-2",
+      "name": "EE Lab 2",
+      "type": "Electrical Lab",
+      "capacity": 36,
+      "dept": "EE"
+    },
+    {
+      "id": "r-me-101",
+      "name": "ME-101",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ME"
+    },
+    {
+      "id": "r-me-102",
+      "name": "ME-102",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ME"
+    },
+    {
+      "id": "r-me-103",
+      "name": "ME-103",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ME"
+    },
+    {
+      "id": "r-me-104",
+      "name": "ME-104",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "ME"
+    },
+    {
+      "id": "r-me-lab-1",
+      "name": "ME Lab 1",
+      "type": "Workshop",
+      "capacity": 36,
+      "dept": "ME"
+    },
+    {
+      "id": "r-me-lab-2",
+      "name": "ME Lab 2",
+      "type": "Workshop",
+      "capacity": 36,
+      "dept": "ME"
+    },
+    {
+      "id": "r-ce-101",
+      "name": "CE-101",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CE"
+    },
+    {
+      "id": "r-ce-102",
+      "name": "CE-102",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CE"
+    },
+    {
+      "id": "r-ce-103",
+      "name": "CE-103",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CE"
+    },
+    {
+      "id": "r-ce-104",
+      "name": "CE-104",
+      "type": "Classroom",
+      "capacity": 70,
+      "dept": "CE"
+    },
+    {
+      "id": "r-ce-lab-1",
+      "name": "CE Lab 1",
+      "type": "Civil Lab",
+      "capacity": 36,
+      "dept": "CE"
+    },
+    {
+      "id": "r-ce-lab-2",
+      "name": "CE Lab 2",
+      "type": "Civil Lab",
+      "capacity": 36,
+      "dept": "CE"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "t-dr-aman-sidhu",
+      "name": "Dr. Aman Sidhu",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-baljeet-sidhu",
+      "name": "Prof. Baljeet Sidhu",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-charanjit-sidhu",
+      "name": "Prof. Charanjit Sidhu",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-deepika-sidhu",
+      "name": "Dr. Deepika Sidhu",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-eshaan-sidhu",
+      "name": "Prof. Eshaan Sidhu",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-farhan-sidhu",
+      "name": "Prof. Farhan Sidhu",
+      "dept": "Applied Sciences",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-gagan-sidhu",
+      "name": "Dr. Gagan Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-harleen-sidhu",
+      "name": "Prof. Harleen Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-ishita-sidhu",
+      "name": "Prof. Ishita Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-jatin-sidhu",
+      "name": "Dr. Jatin Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-komal-sidhu",
+      "name": "Prof. Komal Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-lovepreet-sidhu",
+      "name": "Prof. Lovepreet Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-mehak-sidhu",
+      "name": "Dr. Mehak Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-navdeep-sidhu",
+      "name": "Prof. Navdeep Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-oshin-sidhu",
+      "name": "Prof. Oshin Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-paramjit-sidhu",
+      "name": "Dr. Paramjit Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-rashmi-sidhu",
+      "name": "Prof. Rashmi Sidhu",
+      "dept": "CSE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-sahil-sidhu",
+      "name": "Prof. Sahil Sidhu",
+      "dept": "IT",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-tanvi-sidhu",
+      "name": "Dr. Tanvi Sidhu",
+      "dept": "IT",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-uday-sidhu",
+      "name": "Prof. Uday Sidhu",
+      "dept": "IT",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-varun-sidhu",
+      "name": "Prof. Varun Sidhu",
+      "dept": "IT",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-yashika-sidhu",
+      "name": "Dr. Yashika Sidhu",
+      "dept": "IT",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-aman-grewal",
+      "name": "Prof. Aman Grewal",
+      "dept": "IT",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-baljeet-grewal",
+      "name": "Prof. Baljeet Grewal",
+      "dept": "IT",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-charanjit-grewal",
+      "name": "Dr. Charanjit Grewal",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-deepika-grewal",
+      "name": "Prof. Deepika Grewal",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-eshaan-grewal",
+      "name": "Prof. Eshaan Grewal",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-farhan-grewal",
+      "name": "Dr. Farhan Grewal",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-gagan-grewal",
+      "name": "Prof. Gagan Grewal",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-harleen-grewal",
+      "name": "Prof. Harleen Grewal",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-ishita-grewal",
+      "name": "Dr. Ishita Grewal",
+      "dept": "ECE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-jatin-grewal",
+      "name": "Prof. Jatin Grewal",
+      "dept": "EE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-komal-grewal",
+      "name": "Prof. Komal Grewal",
+      "dept": "EE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-lovepreet-grewal",
+      "name": "Dr. Lovepreet Grewal",
+      "dept": "EE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-mehak-grewal",
+      "name": "Prof. Mehak Grewal",
+      "dept": "EE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-navdeep-grewal",
+      "name": "Prof. Navdeep Grewal",
+      "dept": "EE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-oshin-grewal",
+      "name": "Dr. Oshin Grewal",
+      "dept": "EE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-paramjit-grewal",
+      "name": "Prof. Paramjit Grewal",
+      "dept": "EE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-rashmi-grewal",
+      "name": "Prof. Rashmi Grewal",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-sahil-grewal",
+      "name": "Dr. Sahil Grewal",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-tanvi-grewal",
+      "name": "Prof. Tanvi Grewal",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-uday-grewal",
+      "name": "Prof. Uday Grewal",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-varun-grewal",
+      "name": "Dr. Varun Grewal",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-yashika-grewal",
+      "name": "Prof. Yashika Grewal",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-aman-bhatia",
+      "name": "Prof. Aman Bhatia",
+      "dept": "ME",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-baljeet-bhatia",
+      "name": "Dr. Baljeet Bhatia",
+      "dept": "CE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-charanjit-bhatia",
+      "name": "Prof. Charanjit Bhatia",
+      "dept": "CE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-deepika-bhatia",
+      "name": "Prof. Deepika Bhatia",
+      "dept": "CE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-eshaan-bhatia",
+      "name": "Dr. Eshaan Bhatia",
+      "dept": "CE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-farhan-bhatia",
+      "name": "Prof. Farhan Bhatia",
+      "dept": "CE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-prof-gagan-bhatia",
+      "name": "Prof. Gagan Bhatia",
+      "dept": "CE",
+      "maxPerDay": 5,
+      "unavailable": []
+    },
+    {
+      "id": "t-dr-harleen-bhatia",
+      "name": "Dr. Harleen Bhatia",
+      "dept": "CE",
+      "maxPerDay": 5,
+      "unavailable": []
+    }
+  ],
+  "sections": [
+    {
+      "id": "s-cse-3a",
+      "name": "CSE-3A",
+      "dept": "CSE",
+      "size": 60
+    },
+    {
+      "id": "s-cse-3b",
+      "name": "CSE-3B",
+      "dept": "CSE",
+      "size": 60
+    },
+    {
+      "id": "s-cse-5a",
+      "name": "CSE-5A",
+      "dept": "CSE",
+      "size": 60
+    },
+    {
+      "id": "s-cse-5b",
+      "name": "CSE-5B",
+      "dept": "CSE",
+      "size": 60
+    },
+    {
+      "id": "s-cse-7a",
+      "name": "CSE-7A",
+      "dept": "CSE",
+      "size": 60
+    },
+    {
+      "id": "s-it-3a",
+      "name": "IT-3A",
+      "dept": "IT",
+      "size": 60
+    },
+    {
+      "id": "s-it-5a",
+      "name": "IT-5A",
+      "dept": "IT",
+      "size": 60
+    },
+    {
+      "id": "s-it-7a",
+      "name": "IT-7A",
+      "dept": "IT",
+      "size": 60
+    },
+    {
+      "id": "s-ece-3a",
+      "name": "ECE-3A",
+      "dept": "ECE",
+      "size": 60
+    },
+    {
+      "id": "s-ece-5a",
+      "name": "ECE-5A",
+      "dept": "ECE",
+      "size": 60
+    },
+    {
+      "id": "s-ece-7a",
+      "name": "ECE-7A",
+      "dept": "ECE",
+      "size": 60
+    },
+    {
+      "id": "s-ee-3a",
+      "name": "EE-3A",
+      "dept": "EE",
+      "size": 60
+    },
+    {
+      "id": "s-ee-5a",
+      "name": "EE-5A",
+      "dept": "EE",
+      "size": 60
+    },
+    {
+      "id": "s-ee-7a",
+      "name": "EE-7A",
+      "dept": "EE",
+      "size": 60
+    },
+    {
+      "id": "s-me-3a",
+      "name": "ME-3A",
+      "dept": "ME",
+      "size": 60
+    },
+    {
+      "id": "s-me-5a",
+      "name": "ME-5A",
+      "dept": "ME",
+      "size": 60
+    },
+    {
+      "id": "s-me-7a",
+      "name": "ME-7A",
+      "dept": "ME",
+      "size": 60
+    },
+    {
+      "id": "s-ce-3a",
+      "name": "CE-3A",
+      "dept": "CE",
+      "size": 60
+    },
+    {
+      "id": "s-ce-5a",
+      "name": "CE-5A",
+      "dept": "CE",
+      "size": 60
+    },
+    {
+      "id": "s-ce-7a",
+      "name": "CE-7A",
+      "dept": "CE",
+      "size": 60
+    }
+  ],
+  "courses": [
+    {
+      "id": "c-cse-3a-ma-301",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "Mathematics III",
+      "code": "MA-301",
+      "teacherId": "t-dr-aman-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-hu-301",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-301",
+      "teacherId": "t-prof-eshaan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cse-301",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "CSE Core 3.1",
+      "code": "CSE-301",
+      "teacherId": "t-dr-gagan-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cse-302",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "CSE Core 3.2",
+      "code": "CSE-302",
+      "teacherId": "t-prof-harleen-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cse-303",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "CSE Core 3.3",
+      "code": "CSE-303",
+      "teacherId": "t-prof-ishita-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cse-304",
+      "sectionId": "s-cse-3a",
+      "batch": "",
+      "subject": "CSE Core 3.4",
+      "code": "CSE-304",
+      "teacherId": "t-dr-jatin-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cse-311-g1",
+      "sectionId": "s-cse-3a",
+      "batch": "G1",
+      "subject": "CSE Lab 3.1",
+      "code": "CSE-311",
+      "teacherId": "t-prof-komal-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cse-311-g2",
+      "sectionId": "s-cse-3a",
+      "batch": "G2",
+      "subject": "CSE Lab 3.1",
+      "code": "CSE-311",
+      "teacherId": "t-prof-lovepreet-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cse-312-g1",
+      "sectionId": "s-cse-3a",
+      "batch": "G1",
+      "subject": "CSE Lab 3.2",
+      "code": "CSE-312",
+      "teacherId": "t-dr-mehak-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3a-cse-312-g2",
+      "sectionId": "s-cse-3a",
+      "batch": "G2",
+      "subject": "CSE Lab 3.2",
+      "code": "CSE-312",
+      "teacherId": "t-prof-navdeep-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-ma-301",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "Mathematics III",
+      "code": "MA-301",
+      "teacherId": "t-prof-baljeet-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-hu-301",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-301",
+      "teacherId": "t-prof-farhan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cse-301",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "CSE Core 3.1",
+      "code": "CSE-301",
+      "teacherId": "t-prof-oshin-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cse-302",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "CSE Core 3.2",
+      "code": "CSE-302",
+      "teacherId": "t-dr-paramjit-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cse-303",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "CSE Core 3.3",
+      "code": "CSE-303",
+      "teacherId": "t-prof-rashmi-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cse-304",
+      "sectionId": "s-cse-3b",
+      "batch": "",
+      "subject": "CSE Core 3.4",
+      "code": "CSE-304",
+      "teacherId": "t-dr-gagan-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cse-311-g1",
+      "sectionId": "s-cse-3b",
+      "batch": "G1",
+      "subject": "CSE Lab 3.1",
+      "code": "CSE-311",
+      "teacherId": "t-prof-harleen-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cse-311-g2",
+      "sectionId": "s-cse-3b",
+      "batch": "G2",
+      "subject": "CSE Lab 3.1",
+      "code": "CSE-311",
+      "teacherId": "t-prof-ishita-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cse-312-g1",
+      "sectionId": "s-cse-3b",
+      "batch": "G1",
+      "subject": "CSE Lab 3.2",
+      "code": "CSE-312",
+      "teacherId": "t-dr-jatin-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-3b-cse-312-g2",
+      "sectionId": "s-cse-3b",
+      "batch": "G2",
+      "subject": "CSE Lab 3.2",
+      "code": "CSE-312",
+      "teacherId": "t-prof-komal-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-hu-501",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-501",
+      "teacherId": "t-prof-eshaan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cse-501",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "CSE Core 5.1",
+      "code": "CSE-501",
+      "teacherId": "t-prof-lovepreet-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cse-502",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "CSE Core 5.2",
+      "code": "CSE-502",
+      "teacherId": "t-dr-mehak-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cse-503",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "CSE Core 5.3",
+      "code": "CSE-503",
+      "teacherId": "t-prof-navdeep-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cse-504",
+      "sectionId": "s-cse-5a",
+      "batch": "",
+      "subject": "CSE Core 5.4",
+      "code": "CSE-504",
+      "teacherId": "t-prof-oshin-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cse-511-g1",
+      "sectionId": "s-cse-5a",
+      "batch": "G1",
+      "subject": "CSE Lab 5.1",
+      "code": "CSE-511",
+      "teacherId": "t-dr-paramjit-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cse-511-g2",
+      "sectionId": "s-cse-5a",
+      "batch": "G2",
+      "subject": "CSE Lab 5.1",
+      "code": "CSE-511",
+      "teacherId": "t-prof-rashmi-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cse-512-g1",
+      "sectionId": "s-cse-5a",
+      "batch": "G1",
+      "subject": "CSE Lab 5.2",
+      "code": "CSE-512",
+      "teacherId": "t-dr-gagan-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5a-cse-512-g2",
+      "sectionId": "s-cse-5a",
+      "batch": "G2",
+      "subject": "CSE Lab 5.2",
+      "code": "CSE-512",
+      "teacherId": "t-prof-harleen-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-hu-501",
+      "sectionId": "s-cse-5b",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-501",
+      "teacherId": "t-prof-farhan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-cse-501",
+      "sectionId": "s-cse-5b",
+      "batch": "",
+      "subject": "CSE Core 5.1",
+      "code": "CSE-501",
+      "teacherId": "t-prof-ishita-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-cse-502",
+      "sectionId": "s-cse-5b",
+      "batch": "",
+      "subject": "CSE Core 5.2",
+      "code": "CSE-502",
+      "teacherId": "t-dr-jatin-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-cse-503",
+      "sectionId": "s-cse-5b",
+      "batch": "",
+      "subject": "CSE Core 5.3",
+      "code": "CSE-503",
+      "teacherId": "t-prof-komal-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-cse-504",
+      "sectionId": "s-cse-5b",
+      "batch": "",
+      "subject": "CSE Core 5.4",
+      "code": "CSE-504",
+      "teacherId": "t-prof-lovepreet-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-cse-511-g1",
+      "sectionId": "s-cse-5b",
+      "batch": "G1",
+      "subject": "CSE Lab 5.1",
+      "code": "CSE-511",
+      "teacherId": "t-dr-mehak-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-cse-511-g2",
+      "sectionId": "s-cse-5b",
+      "batch": "G2",
+      "subject": "CSE Lab 5.1",
+      "code": "CSE-511",
+      "teacherId": "t-prof-navdeep-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-cse-512-g1",
+      "sectionId": "s-cse-5b",
+      "batch": "G1",
+      "subject": "CSE Lab 5.2",
+      "code": "CSE-512",
+      "teacherId": "t-prof-oshin-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-5b-cse-512-g2",
+      "sectionId": "s-cse-5b",
+      "batch": "G2",
+      "subject": "CSE Lab 5.2",
+      "code": "CSE-512",
+      "teacherId": "t-dr-paramjit-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-701",
+      "sectionId": "s-cse-7a",
+      "batch": "",
+      "subject": "CSE Core 7.1",
+      "code": "CSE-701",
+      "teacherId": "t-prof-rashmi-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-702",
+      "sectionId": "s-cse-7a",
+      "batch": "",
+      "subject": "CSE Core 7.2",
+      "code": "CSE-702",
+      "teacherId": "t-dr-gagan-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-703",
+      "sectionId": "s-cse-7a",
+      "batch": "",
+      "subject": "CSE Core 7.3",
+      "code": "CSE-703",
+      "teacherId": "t-prof-harleen-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-704",
+      "sectionId": "s-cse-7a",
+      "batch": "",
+      "subject": "CSE Core 7.4",
+      "code": "CSE-704",
+      "teacherId": "t-prof-ishita-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-705",
+      "sectionId": "s-cse-7a",
+      "batch": "",
+      "subject": "CSE Core 7.5",
+      "code": "CSE-705",
+      "teacherId": "t-dr-jatin-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-791",
+      "sectionId": "s-cse-7a",
+      "batch": "",
+      "subject": "Project Seminar",
+      "code": "CSE-791",
+      "teacherId": "t-prof-komal-sidhu",
+      "sessions": 1,
+      "length": 1,
+      "roomType": "Seminar Hall",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-711-g1",
+      "sectionId": "s-cse-7a",
+      "batch": "G1",
+      "subject": "CSE Lab 7.1",
+      "code": "CSE-711",
+      "teacherId": "t-prof-lovepreet-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-711-g2",
+      "sectionId": "s-cse-7a",
+      "batch": "G2",
+      "subject": "CSE Lab 7.1",
+      "code": "CSE-711",
+      "teacherId": "t-dr-mehak-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-712-g1",
+      "sectionId": "s-cse-7a",
+      "batch": "G1",
+      "subject": "CSE Lab 7.2",
+      "code": "CSE-712",
+      "teacherId": "t-prof-navdeep-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-cse-7a-cse-712-g2",
+      "sectionId": "s-cse-7a",
+      "batch": "G2",
+      "subject": "CSE Lab 7.2",
+      "code": "CSE-712",
+      "teacherId": "t-prof-oshin-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-ma-301",
+      "sectionId": "s-it-3a",
+      "batch": "",
+      "subject": "Mathematics III",
+      "code": "MA-301",
+      "teacherId": "t-prof-charanjit-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-hu-301",
+      "sectionId": "s-it-3a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-301",
+      "teacherId": "t-prof-eshaan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-it-301",
+      "sectionId": "s-it-3a",
+      "batch": "",
+      "subject": "IT Core 3.1",
+      "code": "IT-301",
+      "teacherId": "t-prof-sahil-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-it-302",
+      "sectionId": "s-it-3a",
+      "batch": "",
+      "subject": "IT Core 3.2",
+      "code": "IT-302",
+      "teacherId": "t-dr-tanvi-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-it-303",
+      "sectionId": "s-it-3a",
+      "batch": "",
+      "subject": "IT Core 3.3",
+      "code": "IT-303",
+      "teacherId": "t-prof-uday-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-it-304",
+      "sectionId": "s-it-3a",
+      "batch": "",
+      "subject": "IT Core 3.4",
+      "code": "IT-304",
+      "teacherId": "t-prof-varun-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-it-311-g1",
+      "sectionId": "s-it-3a",
+      "batch": "G1",
+      "subject": "IT Lab 3.1",
+      "code": "IT-311",
+      "teacherId": "t-dr-yashika-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-it-311-g2",
+      "sectionId": "s-it-3a",
+      "batch": "G2",
+      "subject": "IT Lab 3.1",
+      "code": "IT-311",
+      "teacherId": "t-prof-aman-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-it-312-g1",
+      "sectionId": "s-it-3a",
+      "batch": "G1",
+      "subject": "IT Lab 3.2",
+      "code": "IT-312",
+      "teacherId": "t-prof-baljeet-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-3a-it-312-g2",
+      "sectionId": "s-it-3a",
+      "batch": "G2",
+      "subject": "IT Lab 3.2",
+      "code": "IT-312",
+      "teacherId": "t-prof-sahil-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-hu-501",
+      "sectionId": "s-it-5a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-501",
+      "teacherId": "t-prof-farhan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-it-501",
+      "sectionId": "s-it-5a",
+      "batch": "",
+      "subject": "IT Core 5.1",
+      "code": "IT-501",
+      "teacherId": "t-dr-tanvi-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-it-502",
+      "sectionId": "s-it-5a",
+      "batch": "",
+      "subject": "IT Core 5.2",
+      "code": "IT-502",
+      "teacherId": "t-prof-uday-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-it-503",
+      "sectionId": "s-it-5a",
+      "batch": "",
+      "subject": "IT Core 5.3",
+      "code": "IT-503",
+      "teacherId": "t-prof-varun-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-it-504",
+      "sectionId": "s-it-5a",
+      "batch": "",
+      "subject": "IT Core 5.4",
+      "code": "IT-504",
+      "teacherId": "t-dr-yashika-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-it-511-g1",
+      "sectionId": "s-it-5a",
+      "batch": "G1",
+      "subject": "IT Lab 5.1",
+      "code": "IT-511",
+      "teacherId": "t-prof-aman-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-it-511-g2",
+      "sectionId": "s-it-5a",
+      "batch": "G2",
+      "subject": "IT Lab 5.1",
+      "code": "IT-511",
+      "teacherId": "t-prof-baljeet-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-it-512-g1",
+      "sectionId": "s-it-5a",
+      "batch": "G1",
+      "subject": "IT Lab 5.2",
+      "code": "IT-512",
+      "teacherId": "t-prof-sahil-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-5a-it-512-g2",
+      "sectionId": "s-it-5a",
+      "batch": "G2",
+      "subject": "IT Lab 5.2",
+      "code": "IT-512",
+      "teacherId": "t-dr-tanvi-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-701",
+      "sectionId": "s-it-7a",
+      "batch": "",
+      "subject": "IT Core 7.1",
+      "code": "IT-701",
+      "teacherId": "t-prof-uday-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-702",
+      "sectionId": "s-it-7a",
+      "batch": "",
+      "subject": "IT Core 7.2",
+      "code": "IT-702",
+      "teacherId": "t-prof-varun-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-703",
+      "sectionId": "s-it-7a",
+      "batch": "",
+      "subject": "IT Core 7.3",
+      "code": "IT-703",
+      "teacherId": "t-dr-yashika-sidhu",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-704",
+      "sectionId": "s-it-7a",
+      "batch": "",
+      "subject": "IT Core 7.4",
+      "code": "IT-704",
+      "teacherId": "t-prof-aman-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-705",
+      "sectionId": "s-it-7a",
+      "batch": "",
+      "subject": "IT Core 7.5",
+      "code": "IT-705",
+      "teacherId": "t-prof-baljeet-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-791",
+      "sectionId": "s-it-7a",
+      "batch": "",
+      "subject": "Project Seminar",
+      "code": "IT-791",
+      "teacherId": "t-prof-sahil-sidhu",
+      "sessions": 1,
+      "length": 1,
+      "roomType": "Seminar Hall",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-711-g1",
+      "sectionId": "s-it-7a",
+      "batch": "G1",
+      "subject": "IT Lab 7.1",
+      "code": "IT-711",
+      "teacherId": "t-dr-tanvi-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-711-g2",
+      "sectionId": "s-it-7a",
+      "batch": "G2",
+      "subject": "IT Lab 7.1",
+      "code": "IT-711",
+      "teacherId": "t-prof-uday-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-712-g1",
+      "sectionId": "s-it-7a",
+      "batch": "G1",
+      "subject": "IT Lab 7.2",
+      "code": "IT-712",
+      "teacherId": "t-prof-varun-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-it-7a-it-712-g2",
+      "sectionId": "s-it-7a",
+      "batch": "G2",
+      "subject": "IT Lab 7.2",
+      "code": "IT-712",
+      "teacherId": "t-dr-yashika-sidhu",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Computer Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ma-301",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "Mathematics III",
+      "code": "MA-301",
+      "teacherId": "t-dr-deepika-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-hu-301",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-301",
+      "teacherId": "t-prof-eshaan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ece-301",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "ECE Core 3.1",
+      "code": "ECE-301",
+      "teacherId": "t-dr-charanjit-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ece-302",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "ECE Core 3.2",
+      "code": "ECE-302",
+      "teacherId": "t-prof-deepika-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ece-303",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "ECE Core 3.3",
+      "code": "ECE-303",
+      "teacherId": "t-prof-eshaan-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ece-304",
+      "sectionId": "s-ece-3a",
+      "batch": "",
+      "subject": "ECE Core 3.4",
+      "code": "ECE-304",
+      "teacherId": "t-dr-farhan-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ece-311-g1",
+      "sectionId": "s-ece-3a",
+      "batch": "G1",
+      "subject": "ECE Lab 3.1",
+      "code": "ECE-311",
+      "teacherId": "t-prof-gagan-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ece-311-g2",
+      "sectionId": "s-ece-3a",
+      "batch": "G2",
+      "subject": "ECE Lab 3.1",
+      "code": "ECE-311",
+      "teacherId": "t-prof-harleen-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ece-312-g1",
+      "sectionId": "s-ece-3a",
+      "batch": "G1",
+      "subject": "ECE Lab 3.2",
+      "code": "ECE-312",
+      "teacherId": "t-dr-ishita-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-3a-ece-312-g2",
+      "sectionId": "s-ece-3a",
+      "batch": "G2",
+      "subject": "ECE Lab 3.2",
+      "code": "ECE-312",
+      "teacherId": "t-dr-charanjit-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-hu-501",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-501",
+      "teacherId": "t-prof-farhan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ece-501",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "ECE Core 5.1",
+      "code": "ECE-501",
+      "teacherId": "t-prof-deepika-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ece-502",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "ECE Core 5.2",
+      "code": "ECE-502",
+      "teacherId": "t-prof-eshaan-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ece-503",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "ECE Core 5.3",
+      "code": "ECE-503",
+      "teacherId": "t-dr-farhan-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ece-504",
+      "sectionId": "s-ece-5a",
+      "batch": "",
+      "subject": "ECE Core 5.4",
+      "code": "ECE-504",
+      "teacherId": "t-prof-gagan-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ece-511-g1",
+      "sectionId": "s-ece-5a",
+      "batch": "G1",
+      "subject": "ECE Lab 5.1",
+      "code": "ECE-511",
+      "teacherId": "t-prof-harleen-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ece-511-g2",
+      "sectionId": "s-ece-5a",
+      "batch": "G2",
+      "subject": "ECE Lab 5.1",
+      "code": "ECE-511",
+      "teacherId": "t-dr-ishita-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ece-512-g1",
+      "sectionId": "s-ece-5a",
+      "batch": "G1",
+      "subject": "ECE Lab 5.2",
+      "code": "ECE-512",
+      "teacherId": "t-dr-charanjit-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-5a-ece-512-g2",
+      "sectionId": "s-ece-5a",
+      "batch": "G2",
+      "subject": "ECE Lab 5.2",
+      "code": "ECE-512",
+      "teacherId": "t-prof-deepika-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-701",
+      "sectionId": "s-ece-7a",
+      "batch": "",
+      "subject": "ECE Core 7.1",
+      "code": "ECE-701",
+      "teacherId": "t-prof-eshaan-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-702",
+      "sectionId": "s-ece-7a",
+      "batch": "",
+      "subject": "ECE Core 7.2",
+      "code": "ECE-702",
+      "teacherId": "t-dr-farhan-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-703",
+      "sectionId": "s-ece-7a",
+      "batch": "",
+      "subject": "ECE Core 7.3",
+      "code": "ECE-703",
+      "teacherId": "t-prof-gagan-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-704",
+      "sectionId": "s-ece-7a",
+      "batch": "",
+      "subject": "ECE Core 7.4",
+      "code": "ECE-704",
+      "teacherId": "t-prof-harleen-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-705",
+      "sectionId": "s-ece-7a",
+      "batch": "",
+      "subject": "ECE Core 7.5",
+      "code": "ECE-705",
+      "teacherId": "t-dr-ishita-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-791",
+      "sectionId": "s-ece-7a",
+      "batch": "",
+      "subject": "Project Seminar",
+      "code": "ECE-791",
+      "teacherId": "t-dr-charanjit-grewal",
+      "sessions": 1,
+      "length": 1,
+      "roomType": "Seminar Hall",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-711-g1",
+      "sectionId": "s-ece-7a",
+      "batch": "G1",
+      "subject": "ECE Lab 7.1",
+      "code": "ECE-711",
+      "teacherId": "t-prof-deepika-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-711-g2",
+      "sectionId": "s-ece-7a",
+      "batch": "G2",
+      "subject": "ECE Lab 7.1",
+      "code": "ECE-711",
+      "teacherId": "t-prof-eshaan-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-712-g1",
+      "sectionId": "s-ece-7a",
+      "batch": "G1",
+      "subject": "ECE Lab 7.2",
+      "code": "ECE-712",
+      "teacherId": "t-dr-farhan-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ece-7a-ece-712-g2",
+      "sectionId": "s-ece-7a",
+      "batch": "G2",
+      "subject": "ECE Lab 7.2",
+      "code": "ECE-712",
+      "teacherId": "t-prof-gagan-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electronics Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ma-301",
+      "sectionId": "s-ee-3a",
+      "batch": "",
+      "subject": "Mathematics III",
+      "code": "MA-301",
+      "teacherId": "t-dr-aman-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-hu-301",
+      "sectionId": "s-ee-3a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-301",
+      "teacherId": "t-prof-eshaan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ee-301",
+      "sectionId": "s-ee-3a",
+      "batch": "",
+      "subject": "EE Core 3.1",
+      "code": "EE-301",
+      "teacherId": "t-prof-jatin-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ee-302",
+      "sectionId": "s-ee-3a",
+      "batch": "",
+      "subject": "EE Core 3.2",
+      "code": "EE-302",
+      "teacherId": "t-prof-komal-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ee-303",
+      "sectionId": "s-ee-3a",
+      "batch": "",
+      "subject": "EE Core 3.3",
+      "code": "EE-303",
+      "teacherId": "t-dr-lovepreet-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ee-304",
+      "sectionId": "s-ee-3a",
+      "batch": "",
+      "subject": "EE Core 3.4",
+      "code": "EE-304",
+      "teacherId": "t-prof-mehak-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ee-311-g1",
+      "sectionId": "s-ee-3a",
+      "batch": "G1",
+      "subject": "EE Lab 3.1",
+      "code": "EE-311",
+      "teacherId": "t-prof-navdeep-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ee-311-g2",
+      "sectionId": "s-ee-3a",
+      "batch": "G2",
+      "subject": "EE Lab 3.1",
+      "code": "EE-311",
+      "teacherId": "t-dr-oshin-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ee-312-g1",
+      "sectionId": "s-ee-3a",
+      "batch": "G1",
+      "subject": "EE Lab 3.2",
+      "code": "EE-312",
+      "teacherId": "t-prof-paramjit-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-3a-ee-312-g2",
+      "sectionId": "s-ee-3a",
+      "batch": "G2",
+      "subject": "EE Lab 3.2",
+      "code": "EE-312",
+      "teacherId": "t-prof-jatin-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-hu-501",
+      "sectionId": "s-ee-5a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-501",
+      "teacherId": "t-prof-farhan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-ee-501",
+      "sectionId": "s-ee-5a",
+      "batch": "",
+      "subject": "EE Core 5.1",
+      "code": "EE-501",
+      "teacherId": "t-prof-komal-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-ee-502",
+      "sectionId": "s-ee-5a",
+      "batch": "",
+      "subject": "EE Core 5.2",
+      "code": "EE-502",
+      "teacherId": "t-dr-lovepreet-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-ee-503",
+      "sectionId": "s-ee-5a",
+      "batch": "",
+      "subject": "EE Core 5.3",
+      "code": "EE-503",
+      "teacherId": "t-prof-mehak-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-ee-504",
+      "sectionId": "s-ee-5a",
+      "batch": "",
+      "subject": "EE Core 5.4",
+      "code": "EE-504",
+      "teacherId": "t-prof-navdeep-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-ee-511-g1",
+      "sectionId": "s-ee-5a",
+      "batch": "G1",
+      "subject": "EE Lab 5.1",
+      "code": "EE-511",
+      "teacherId": "t-dr-oshin-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-ee-511-g2",
+      "sectionId": "s-ee-5a",
+      "batch": "G2",
+      "subject": "EE Lab 5.1",
+      "code": "EE-511",
+      "teacherId": "t-prof-paramjit-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-ee-512-g1",
+      "sectionId": "s-ee-5a",
+      "batch": "G1",
+      "subject": "EE Lab 5.2",
+      "code": "EE-512",
+      "teacherId": "t-prof-jatin-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-5a-ee-512-g2",
+      "sectionId": "s-ee-5a",
+      "batch": "G2",
+      "subject": "EE Lab 5.2",
+      "code": "EE-512",
+      "teacherId": "t-prof-komal-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-701",
+      "sectionId": "s-ee-7a",
+      "batch": "",
+      "subject": "EE Core 7.1",
+      "code": "EE-701",
+      "teacherId": "t-dr-lovepreet-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-702",
+      "sectionId": "s-ee-7a",
+      "batch": "",
+      "subject": "EE Core 7.2",
+      "code": "EE-702",
+      "teacherId": "t-prof-mehak-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-703",
+      "sectionId": "s-ee-7a",
+      "batch": "",
+      "subject": "EE Core 7.3",
+      "code": "EE-703",
+      "teacherId": "t-prof-navdeep-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-704",
+      "sectionId": "s-ee-7a",
+      "batch": "",
+      "subject": "EE Core 7.4",
+      "code": "EE-704",
+      "teacherId": "t-dr-oshin-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-705",
+      "sectionId": "s-ee-7a",
+      "batch": "",
+      "subject": "EE Core 7.5",
+      "code": "EE-705",
+      "teacherId": "t-prof-paramjit-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-791",
+      "sectionId": "s-ee-7a",
+      "batch": "",
+      "subject": "Project Seminar",
+      "code": "EE-791",
+      "teacherId": "t-prof-jatin-grewal",
+      "sessions": 1,
+      "length": 1,
+      "roomType": "Seminar Hall",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-711-g1",
+      "sectionId": "s-ee-7a",
+      "batch": "G1",
+      "subject": "EE Lab 7.1",
+      "code": "EE-711",
+      "teacherId": "t-prof-komal-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-711-g2",
+      "sectionId": "s-ee-7a",
+      "batch": "G2",
+      "subject": "EE Lab 7.1",
+      "code": "EE-711",
+      "teacherId": "t-dr-lovepreet-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-712-g1",
+      "sectionId": "s-ee-7a",
+      "batch": "G1",
+      "subject": "EE Lab 7.2",
+      "code": "EE-712",
+      "teacherId": "t-prof-mehak-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ee-7a-ee-712-g2",
+      "sectionId": "s-ee-7a",
+      "batch": "G2",
+      "subject": "EE Lab 7.2",
+      "code": "EE-712",
+      "teacherId": "t-prof-navdeep-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Electrical Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-ma-301",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "Mathematics III",
+      "code": "MA-301",
+      "teacherId": "t-prof-baljeet-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-hu-301",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-301",
+      "teacherId": "t-prof-eshaan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-301",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "ME Core 3.1",
+      "code": "ME-301",
+      "teacherId": "t-prof-rashmi-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-302",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "ME Core 3.2",
+      "code": "ME-302",
+      "teacherId": "t-dr-sahil-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-303",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "ME Core 3.3",
+      "code": "ME-303",
+      "teacherId": "t-prof-tanvi-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-304",
+      "sectionId": "s-me-3a",
+      "batch": "",
+      "subject": "ME Core 3.4",
+      "code": "ME-304",
+      "teacherId": "t-prof-uday-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-311-g1",
+      "sectionId": "s-me-3a",
+      "batch": "G1",
+      "subject": "ME Lab 3.1",
+      "code": "ME-311",
+      "teacherId": "t-dr-varun-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-311-g2",
+      "sectionId": "s-me-3a",
+      "batch": "G2",
+      "subject": "ME Lab 3.1",
+      "code": "ME-311",
+      "teacherId": "t-prof-yashika-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-312-g1",
+      "sectionId": "s-me-3a",
+      "batch": "G1",
+      "subject": "ME Lab 3.2",
+      "code": "ME-312",
+      "teacherId": "t-prof-aman-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-3a-me-312-g2",
+      "sectionId": "s-me-3a",
+      "batch": "G2",
+      "subject": "ME Lab 3.2",
+      "code": "ME-312",
+      "teacherId": "t-prof-rashmi-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-hu-501",
+      "sectionId": "s-me-5a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-501",
+      "teacherId": "t-prof-farhan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-me-501",
+      "sectionId": "s-me-5a",
+      "batch": "",
+      "subject": "ME Core 5.1",
+      "code": "ME-501",
+      "teacherId": "t-dr-sahil-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-me-502",
+      "sectionId": "s-me-5a",
+      "batch": "",
+      "subject": "ME Core 5.2",
+      "code": "ME-502",
+      "teacherId": "t-prof-tanvi-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-me-503",
+      "sectionId": "s-me-5a",
+      "batch": "",
+      "subject": "ME Core 5.3",
+      "code": "ME-503",
+      "teacherId": "t-prof-uday-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-me-504",
+      "sectionId": "s-me-5a",
+      "batch": "",
+      "subject": "ME Core 5.4",
+      "code": "ME-504",
+      "teacherId": "t-dr-varun-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-me-511-g1",
+      "sectionId": "s-me-5a",
+      "batch": "G1",
+      "subject": "ME Lab 5.1",
+      "code": "ME-511",
+      "teacherId": "t-prof-yashika-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-me-511-g2",
+      "sectionId": "s-me-5a",
+      "batch": "G2",
+      "subject": "ME Lab 5.1",
+      "code": "ME-511",
+      "teacherId": "t-prof-aman-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-me-512-g1",
+      "sectionId": "s-me-5a",
+      "batch": "G1",
+      "subject": "ME Lab 5.2",
+      "code": "ME-512",
+      "teacherId": "t-prof-rashmi-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-5a-me-512-g2",
+      "sectionId": "s-me-5a",
+      "batch": "G2",
+      "subject": "ME Lab 5.2",
+      "code": "ME-512",
+      "teacherId": "t-dr-sahil-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-701",
+      "sectionId": "s-me-7a",
+      "batch": "",
+      "subject": "ME Core 7.1",
+      "code": "ME-701",
+      "teacherId": "t-prof-tanvi-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-702",
+      "sectionId": "s-me-7a",
+      "batch": "",
+      "subject": "ME Core 7.2",
+      "code": "ME-702",
+      "teacherId": "t-prof-uday-grewal",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-703",
+      "sectionId": "s-me-7a",
+      "batch": "",
+      "subject": "ME Core 7.3",
+      "code": "ME-703",
+      "teacherId": "t-dr-varun-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-704",
+      "sectionId": "s-me-7a",
+      "batch": "",
+      "subject": "ME Core 7.4",
+      "code": "ME-704",
+      "teacherId": "t-prof-yashika-grewal",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-705",
+      "sectionId": "s-me-7a",
+      "batch": "",
+      "subject": "ME Core 7.5",
+      "code": "ME-705",
+      "teacherId": "t-prof-aman-bhatia",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-791",
+      "sectionId": "s-me-7a",
+      "batch": "",
+      "subject": "Project Seminar",
+      "code": "ME-791",
+      "teacherId": "t-prof-rashmi-grewal",
+      "sessions": 1,
+      "length": 1,
+      "roomType": "Seminar Hall",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-711-g1",
+      "sectionId": "s-me-7a",
+      "batch": "G1",
+      "subject": "ME Lab 7.1",
+      "code": "ME-711",
+      "teacherId": "t-dr-sahil-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-711-g2",
+      "sectionId": "s-me-7a",
+      "batch": "G2",
+      "subject": "ME Lab 7.1",
+      "code": "ME-711",
+      "teacherId": "t-prof-tanvi-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-712-g1",
+      "sectionId": "s-me-7a",
+      "batch": "G1",
+      "subject": "ME Lab 7.2",
+      "code": "ME-712",
+      "teacherId": "t-prof-uday-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-me-7a-me-712-g2",
+      "sectionId": "s-me-7a",
+      "batch": "G2",
+      "subject": "ME Lab 7.2",
+      "code": "ME-712",
+      "teacherId": "t-dr-varun-grewal",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Workshop",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ma-301",
+      "sectionId": "s-ce-3a",
+      "batch": "",
+      "subject": "Mathematics III",
+      "code": "MA-301",
+      "teacherId": "t-prof-charanjit-sidhu",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-hu-301",
+      "sectionId": "s-ce-3a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-301",
+      "teacherId": "t-prof-eshaan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ce-301",
+      "sectionId": "s-ce-3a",
+      "batch": "",
+      "subject": "CE Core 3.1",
+      "code": "CE-301",
+      "teacherId": "t-dr-baljeet-bhatia",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ce-302",
+      "sectionId": "s-ce-3a",
+      "batch": "",
+      "subject": "CE Core 3.2",
+      "code": "CE-302",
+      "teacherId": "t-prof-charanjit-bhatia",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ce-303",
+      "sectionId": "s-ce-3a",
+      "batch": "",
+      "subject": "CE Core 3.3",
+      "code": "CE-303",
+      "teacherId": "t-prof-deepika-bhatia",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ce-304",
+      "sectionId": "s-ce-3a",
+      "batch": "",
+      "subject": "CE Core 3.4",
+      "code": "CE-304",
+      "teacherId": "t-dr-eshaan-bhatia",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ce-311-g1",
+      "sectionId": "s-ce-3a",
+      "batch": "G1",
+      "subject": "CE Lab 3.1",
+      "code": "CE-311",
+      "teacherId": "t-prof-farhan-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ce-311-g2",
+      "sectionId": "s-ce-3a",
+      "batch": "G2",
+      "subject": "CE Lab 3.1",
+      "code": "CE-311",
+      "teacherId": "t-prof-gagan-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ce-312-g1",
+      "sectionId": "s-ce-3a",
+      "batch": "G1",
+      "subject": "CE Lab 3.2",
+      "code": "CE-312",
+      "teacherId": "t-dr-harleen-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-3a-ce-312-g2",
+      "sectionId": "s-ce-3a",
+      "batch": "G2",
+      "subject": "CE Lab 3.2",
+      "code": "CE-312",
+      "teacherId": "t-dr-baljeet-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-hu-501",
+      "sectionId": "s-ce-5a",
+      "batch": "",
+      "subject": "Professional Communication",
+      "code": "HU-501",
+      "teacherId": "t-prof-farhan-sidhu",
+      "sessions": 2,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-ce-501",
+      "sectionId": "s-ce-5a",
+      "batch": "",
+      "subject": "CE Core 5.1",
+      "code": "CE-501",
+      "teacherId": "t-prof-charanjit-bhatia",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-ce-502",
+      "sectionId": "s-ce-5a",
+      "batch": "",
+      "subject": "CE Core 5.2",
+      "code": "CE-502",
+      "teacherId": "t-prof-deepika-bhatia",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-ce-503",
+      "sectionId": "s-ce-5a",
+      "batch": "",
+      "subject": "CE Core 5.3",
+      "code": "CE-503",
+      "teacherId": "t-dr-eshaan-bhatia",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-ce-504",
+      "sectionId": "s-ce-5a",
+      "batch": "",
+      "subject": "CE Core 5.4",
+      "code": "CE-504",
+      "teacherId": "t-prof-farhan-bhatia",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-ce-511-g1",
+      "sectionId": "s-ce-5a",
+      "batch": "G1",
+      "subject": "CE Lab 5.1",
+      "code": "CE-511",
+      "teacherId": "t-prof-gagan-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-ce-511-g2",
+      "sectionId": "s-ce-5a",
+      "batch": "G2",
+      "subject": "CE Lab 5.1",
+      "code": "CE-511",
+      "teacherId": "t-dr-harleen-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-ce-512-g1",
+      "sectionId": "s-ce-5a",
+      "batch": "G1",
+      "subject": "CE Lab 5.2",
+      "code": "CE-512",
+      "teacherId": "t-dr-baljeet-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-5a-ce-512-g2",
+      "sectionId": "s-ce-5a",
+      "batch": "G2",
+      "subject": "CE Lab 5.2",
+      "code": "CE-512",
+      "teacherId": "t-prof-charanjit-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-701",
+      "sectionId": "s-ce-7a",
+      "batch": "",
+      "subject": "CE Core 7.1",
+      "code": "CE-701",
+      "teacherId": "t-prof-deepika-bhatia",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-702",
+      "sectionId": "s-ce-7a",
+      "batch": "",
+      "subject": "CE Core 7.2",
+      "code": "CE-702",
+      "teacherId": "t-dr-eshaan-bhatia",
+      "sessions": 4,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-703",
+      "sectionId": "s-ce-7a",
+      "batch": "",
+      "subject": "CE Core 7.3",
+      "code": "CE-703",
+      "teacherId": "t-prof-farhan-bhatia",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-704",
+      "sectionId": "s-ce-7a",
+      "batch": "",
+      "subject": "CE Core 7.4",
+      "code": "CE-704",
+      "teacherId": "t-prof-gagan-bhatia",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-705",
+      "sectionId": "s-ce-7a",
+      "batch": "",
+      "subject": "CE Core 7.5",
+      "code": "CE-705",
+      "teacherId": "t-dr-harleen-bhatia",
+      "sessions": 3,
+      "length": 1,
+      "roomType": "Classroom",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-791",
+      "sectionId": "s-ce-7a",
+      "batch": "",
+      "subject": "Project Seminar",
+      "code": "CE-791",
+      "teacherId": "t-dr-baljeet-bhatia",
+      "sessions": 1,
+      "length": 1,
+      "roomType": "Seminar Hall",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-711-g1",
+      "sectionId": "s-ce-7a",
+      "batch": "G1",
+      "subject": "CE Lab 7.1",
+      "code": "CE-711",
+      "teacherId": "t-prof-charanjit-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-711-g2",
+      "sectionId": "s-ce-7a",
+      "batch": "G2",
+      "subject": "CE Lab 7.1",
+      "code": "CE-711",
+      "teacherId": "t-prof-deepika-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-712-g1",
+      "sectionId": "s-ce-7a",
+      "batch": "G1",
+      "subject": "CE Lab 7.2",
+      "code": "CE-712",
+      "teacherId": "t-dr-eshaan-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    },
+    {
+      "id": "c-ce-7a-ce-712-g2",
+      "sectionId": "s-ce-7a",
+      "batch": "G2",
+      "subject": "CE Lab 7.2",
+      "code": "CE-712",
+      "teacherId": "t-prof-farhan-bhatia",
+      "sessions": 1,
+      "length": 2,
+      "roomType": "Civil Lab",
+      "fixedRoomId": ""
+    }
+  ],
+  "timetable": null
+}

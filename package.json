@@ -1,0 +1,13 @@
+{
+  "name": "clashfree-timetables",
+  "version": "1.0.0",
+  "description": "Clash-free college timetable generator that runs in the browser",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "samples": "node scripts/make-samples.mjs",
+    "serve": "npx --yes http-server -p 8080 -c-1 ."
+  },
+  "license": "MIT"
+}
