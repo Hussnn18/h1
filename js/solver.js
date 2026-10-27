@@ -172,16 +172,23 @@ export class Board {
     const occ = this.sectionDay(l.sectionId, d);
     const before = gapsIn(occ);
     const load = occ.filter(Boolean).length;
-    let pairsWithBatch = false;
-    for (let q = p; q < p + l.length; q++) {
-      if (l.batch && occ[q]) pairsWithBatch = true;
-      occ[q] = true;
-    }
+    for (let q = p; q < p + l.length; q++) occ[q] = true;
     let pen = (gapsIn(occ) - before) * 4 + load * 0.7 + (this.tDay.get(`${l.teacherId}|${d}`) || 0) * 0.5;
     if (p + l.length === this.P) pen += 1.5;
     pen += p * 0.05;
-    // Split labs should run side by side so the other half of the class is not left idle.
-    if (l.batch) pen += pairsWithBatch ? -3 : 1;
+    // Split labs should run exactly side by side so the other half of the class is not left idle.
+    if (l.batch) {
+      let aligned = false;
+      let partial = false;
+      for (let q = p; q < p + l.length; q++) {
+        for (const e of this.section.get(`${l.sectionId}|${d}|${q}`) || []) {
+          const other = this.placed.get(e.id);
+          if (other && other.period === p && other.lesson.length === l.length) aligned = true;
+          else partial = true;
+        }
+      }
+      pen += aligned && !partial ? -3 : partial ? 2.5 : 1;
+    }
     let run = l.length;
     for (let q = p - 1; q >= 0 && this.teacher.has(`${l.teacherId}|${d}|${q}`); q--) run++;
     for (let q = p + l.length; q < this.P && this.teacher.has(`${l.teacherId}|${d}|${q}`); q++) run++;
