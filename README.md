@@ -6,7 +6,9 @@ A web app that builds **clash-free college timetables** for any college. The adm
 teachers, classes and subjects (or pastes them from Excel), presses **Generate**, and gets a timetable for
 every class, teacher and room in a few seconds. Every result is re-checked by a separate clash checker.
 
-**Live app:** https://hussnn18.github.io/clashfree-timetables/ (no sign-up; everything runs in your browser)
+**Live app:** https://hussnn18.github.io/h1/ (no sign-up; everything runs in your browser)
+
+**Presentation:** `docs/` holds the feature screenshots used in the deck.
 
 ## Try it in one minute
 
